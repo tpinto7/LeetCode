@@ -58,6 +58,7 @@ class Trie {
                 temp = temp.children[index];
             }
         }
+        // calls recursive method
         return startsWithHelper(temp);
     }
     public boolean startsWithHelper(TrieNode temp){
