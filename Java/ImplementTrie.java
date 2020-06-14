@@ -31,7 +31,7 @@ class Trie {
             temp = temp.children[index];    
         }
         
-        // last node inserted will be last node
+        // last node inserted will be end of word
         temp.isEndOfWord = true;
     }
     
